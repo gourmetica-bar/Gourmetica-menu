@@ -11,28 +11,38 @@
       padding: 50px;
     }
     h1 {
-      margin-bottom: 20px;
-      font-weight: normal;
+      margin-bottom: 30px;
     }
     .menu-links a {
-      display: block;
+      display: inline-block;
       font-size: 20px;
-      margin: 15px 0;
+      margin: 15px 10px;
       color: #000;
       text-decoration: none;
       font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid #bb5d2c;
+      border-radius: 10px;
+      background: white;
+      transition: background 0.3s;
     }
     .menu-links a:hover {
-      color: #bb5d2c;
+      background: #ffe1d6;
+    }
+    .flag {
+      width: 24px;
+      height: auto;
+      vertical-align: middle;
+      margin-right: 8px;
     }
   </style>
 </head>
 <body>
   <h1>Gourmetica Sneak Bar</h1>
   <div class="menu-links">
-    <a href="menu-mne.pdf" target="_blank">Мену на црногорском (Crnogorski)</a>
-    <a href="menu-ru.pdf" target="_blank">Меню на русском</a>
-    <a href="menu-en.pdf" target="_blank">Menu in English</a>
+    <p><a href="menu-mne.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/me.png" alt="ME"> Мену на црногорском</a></p>
+    <p><a href="menu-ru.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/ru.png" alt="RU"> Меню на русском</a></p>
+    <p><a href="menu-en.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/gb.png" alt="EN"> Menu in English</a></p>
   </div>
 </body>
 </html>
