@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Gourmetica Sneak Bar | Меню</title>
+  <title>Gourmetica Sneak Bar | Menu</title>
   <style>
     body {
       font-family: sans-serif;
@@ -13,36 +13,41 @@
     h1 {
       margin-bottom: 30px;
     }
+    .menu-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
     .menu-links a {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 60px;
       font-size: 20px;
-      margin: 15px 10px;
-      color: #000;
-      text-decoration: none;
       font-weight: bold;
-      padding: 10px 20px;
-      border: 2px solid #bb5d2c;
+      color: white;
+      background-color: #5a2b7d;
+      text-decoration: none;
       border-radius: 10px;
-      background: white;
       transition: background 0.3s;
     }
     .menu-links a:hover {
-      background: #ffe1d6;
+      background-color: #7939a8;
     }
     .flag {
-      width: 24px;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 8px;
+      width: 30px;
+      margin-right: 10px;
     }
   </style>
 </head>
 <body>
   <h1>Gourmetica Sneak Bar</h1>
   <div class="menu-links">
-    <p><a href="menu-mne.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/me.png" alt="ME"> Мену на црногорском</a></p>
-    <p><a href="menu-ru.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/ru.png" alt="RU"> Меню на русском</a></p>
-    <p><a href="menu-en.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/gb.png" alt="EN"> Menu in English</a></p>
+    <a href="menu-mne.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/me.png" alt="ME"> Menu na Crnogorskom</a>
+    <a href="menu-ru.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/ru.png" alt="RU"> Меню на Русском</a>
+    <a href="menu-en.pdf" target="_blank"><img class="flag" src="https://flagcdn.com/w40/gb.png" alt="EN"> Menu in English</a>
   </div>
 </body>
 </html>
